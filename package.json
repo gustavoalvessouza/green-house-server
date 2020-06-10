@@ -1,0 +1,16 @@
+{
+  "name": "green-house-server",
+  "version": "1.0.0",
+  "description": "Server for communicate with the Arduino components for my final paper",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Gustavo Alves",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^6.4.2",
+    "firmata": "^2.0.0",
+    "johnny-five": "^1.3.0"
+  }
+}
